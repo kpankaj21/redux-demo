@@ -18,3 +18,11 @@ export const updateField = (field) => {
     payload: field,
   };
 };
+
+export const updateForm = (formField) => {
+  return{
+
+    type:"UPDATE_FORM",
+    payload:formField
+  }
+}
